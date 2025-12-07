@@ -1,7 +1,5 @@
 # DynDNS Proxy for Cloudflare
 
-[![CI](https://github.com/timeteus/dyndns-cloudflare-proxy/actions/workflows/ci.yml/badge.svg)](https://github.com/timeteus/dyndns-cloudflare-proxy/actions/workflows/ci.yml)
-[![Release](https://github.com/timeteus/dyndns-cloudflare-proxy/actions/workflows/release.yml/badge.svg)](https://github.com/timeteus/dyndns-cloudflare-proxy/actions/workflows/release.yml)
 [![Docker Pulls](https://img.shields.io/docker/pulls/timeteus/dyndns-cloudflare-proxy)](https://hub.docker.com/r/timeteus/dyndns-cloudflare-proxy)
 
 A lightweight Go-based DynDNS server that acts as a proxy/router to update DNS records on Cloudflare using the Cloudflare REST API. This service implements the DynDNS protocol, allowing you to use standard DynDNS clients to update your Cloudflare DNS records.
